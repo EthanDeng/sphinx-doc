@@ -1,4 +1,5 @@
-自定义函数
+接口函数
+
 =================
-.. automodule:: src
-   :members:
+.. automodapi:: data_retriever
+   :no-inheritance-diagram:

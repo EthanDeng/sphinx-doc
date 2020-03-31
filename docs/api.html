@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>自定义函数 &mdash; Sphinx-Test-Project 0.0.1 documentation</title>
+  <title>data_retriever Module &mdash; Sphinx-Test-Project 0.0.1 documentation</title>
   
 
   
@@ -33,8 +33,10 @@
   
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="parse_html" href="api/data_retriever.parse_html.html" />
     <link rel="prev" title="python语言基础语法" href="introduction.html" /> 
 </head>
 
@@ -83,7 +85,13 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="welcome.html">welcome</a></li>
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">python语言基础语法</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">自定义函数</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">data_retriever Module</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api/data_retriever.parse_html.html">parse_html</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
             
@@ -129,7 +137,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>自定义函数</li>
+      <li>data_retriever Module</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -148,28 +156,24 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="module-src">
-<span id="id1"></span><h1>自定义函数<a class="headerlink" href="#module-src" title="Permalink to this headline">¶</a></h1>
-<dl class="function">
-<dt id="src.parse_html">
-<code class="sig-prename descclassname">src.</code><code class="sig-name descname">parse_html</code><span class="sig-paren">(</span><em class="sig-param">url</em>, <em class="sig-param">res_type</em><span class="sig-paren">)</span><a class="headerlink" href="#src.parse_html" title="Permalink to this definition">¶</a></dt>
-<dd><p>This is a test function, 这个函数是为了获取 url 的返回结果</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>url</strong> (<em>string</em>) – 需要访问的网址</p></li>
-<li><p><strong>res_type</strong> (<em>list</em>) – 服务传输类型，可以取值为 get 或者 post</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p>返回网页的源代码</p>
-</dd>
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>string</p>
-</dd>
-</dl>
-</dd></dl>
-
+  <p>接口函数</p>
+<hr class="docutils" />
+<div class="section" id="module-data_retriever">
+<span id="data-retriever-module"></span><h1>data_retriever Module<a class="headerlink" href="#module-data_retriever" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="api/data_retriever.parse_html.html#data_retriever.parse_html" title="data_retriever.parse_html"><code class="xref py py-obj docutils literal notranslate"><span class="pre">parse_html</span></code></a>(url, res_type)</p></td>
+<td><p>网页解析函数</p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
 
@@ -179,6 +183,8 @@
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="api/data_retriever.parse_html.html" class="btn btn-neutral float-right" title="parse_html" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="introduction.html" class="btn btn-neutral float-left" title="python语言基础语法" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

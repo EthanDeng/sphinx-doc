@@ -1,5 +1,6 @@
 def parse_html(url, res_type):
-    """
+    """网页解析函数
+    
     This is a test function, 这个函数是为了获取 url 的返回结果
 
     :param url: 需要访问的网址
