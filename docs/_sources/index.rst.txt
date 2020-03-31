@@ -3,20 +3,24 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Sphinx-Test-Project's documentation!
+欢迎来到 Sphinx-测试 页面（Ethan Deng）
 ===============================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 模型介绍:
 
    welcome
-   introduction
+
+.. toctree::
+   :caption: 自定义函数:
+
+   grammar
    api
 
 
 
-Indices and tables
+索引信息
 ==================
 
 * :ref:`genindex`
