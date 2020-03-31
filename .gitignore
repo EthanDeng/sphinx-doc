@@ -9,7 +9,6 @@ __pycache__/
 # Sphinx-doc
 .idea/
 _build/
-_static/
 _templates/
 
 # Distribution / packaging
@@ -76,7 +75,6 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
 
 # PyBuilder
 .pybuilder/
